@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background: #f1efec;
+    font-family: 'roboto', sans-serif;
+    padding-top: 2rem;
+}
+
+.name{
+    font-family: 'dosis';
+    font-size: 70px;
+    text-transform: capitalize;
+    color: #eae3d2;
+}
+
+.btn{
+    background: #eae3d2;
+    color: #292929;
+    border: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+@media (max-width: 1100px){
+    body::before{
+        transform: translateX(-50%) skewX(-5deg);
+    }
+}
